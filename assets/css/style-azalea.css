@@ -4781,7 +4781,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-slider { position: relative; }
 
-.roadmap-text { max-width: 265px; margin-left: auto; margin-right: auto; }
+.roadmap-text { max-width: 265px; margin-left: auto; margin-right: auto; text-align: left;}
 
 .roadmap-wrap { position: relative; padding: 40px 0 10px; margin-bottom: 40px; max-width: 430px; margin-left: auto; margin-right: auto; }
 
