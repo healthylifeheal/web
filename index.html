@@ -820,41 +820,6 @@
                                         <h2 class="title title-lg ttu animated" data-animate="fadeInUp" data-delay="0.7">Contact Us</h2>
                                         <p class="animated" data-animate="fadeInUp" data-delay="0.8">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
                                     </div>
-                                    <form class="nk-form-submit" action="form/contact.php" method="post">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="field-item animated" data-animate="fadeInUp" data-delay="0.8">
-                                                    <label class="field-label ttu">Your Name</label>
-                                                    <div class="field-wrap">
-                                                        <input name="contact-name" placeholder="Introduce yourself" type="text" class="input-bordered required">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="field-item animated" data-animate="fadeInUp" data-delay="0.9">
-                                                    <label class="field-label ttu">Your Email</label>
-                                                    <div class="field-wrap">
-                                                        <input name="contact-email" placeholder="Who do we replay to" type="email" class="input-bordered required email">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="field-item animated" data-animate="fadeInUp" data-delay="1.0">
-                                            <label class="field-label ttu">Your Message</label>
-                                            <div class="field-wrap">
-                                                <textarea name="contact-message" placeholder="Leave your question or comment here" class="input-bordered input-textarea required"></textarea>
-                                            </div>
-                                        </div>
-                                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
-                                        <div class="row">
-                                            <div class="col-sm-5 text-right animated" data-animate="fadeInUp" data-delay="1.1">
-                                                <button type="submit" class="btn btn-round btn-primary">SEND</button>
-                                            </div>
-                                            <div class="col-sm-7 order-sm-first">
-                                                <div class="form-results"></div>
-                                            </div>
-                                        </div>
-                                    </form>
                                 </div>
                             </div>
                             <div class="col-lg-5 text-center order-lg-first">
@@ -863,11 +828,11 @@
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.3">
                                             <em class="contact-icon fas fa-envelope"></em>
                                             <div class="contact-text">
-                                                <span>healthylifeheal@gmail.com</span>
+                                                <span>support@healtokens.com</span>
                                             </div>
                                         </li>
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.4">
-                                            <a href="https://t.me/tokenHeal" target="_blank" ><em class="contact-icon fas fa-paper-plane"></em></a>
+                                            <a href="https://t.me/discussionHeal" target="_blank" ><em class="contact-icon fas fa-paper-plane"></em></a>
                                             <div class="contact-text">
                                                 <span>Join us on Telegram</span>
                                             </div>
@@ -881,7 +846,7 @@
                                     <li><a href="https://medium.com/@healthylifeheal/heal-be-healthy-with-wealthy-9386ae0392da" target="_blank"><em class="fab fa-medium-m"></em></a></li>
                                     <li><a href="https://t.me/discussionHeal" target="_blank"><em class="fab fa-telegram"></em></a></li>
                                     <li><a href="https://t.me/tokenHeal" target="_blank"><em class="fab fa-telegram"></em></a></li>
-                                    <li><a href="https://github.com/healthylifeheal/web" target="_blank"><em class="fab fa-github"></em></a></li>
+                                    <li><a href="https://github.com/healthylifeheal/heal" target="_blank"><em class="fab fa-github"></em></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -894,12 +859,12 @@
         <footer class="nk-footer-bar section section-s tc-light">
             <div class="container container-xxl">
                 <div class="row gutter-vr-10px">
-                    <div class="col-lg-6 order-lg-last text-lg-right">
-                        <ul class="footer-nav">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of sales</a></li>
-                        </ul>
-                    </div>
+<!--                    <div class="col-lg-6 order-lg-last text-lg-right">-->
+<!--                        <ul class="footer-nav">-->
+<!--                            <li><a href="#">Privacy Policy</a></li>-->
+<!--                            <li><a href="#">Terms of sales</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
                     <div class="col-lg-6">
                         <div class="copyright-text copyright-text-s2">Copyright © 2022 HEAL.</div>
                     </div>
@@ -911,128 +876,7 @@
             <div class="ovm-line"></div>
         </div>
 	</div>
-   
-    <!-- Modal @s -->
-	<div class="modal fade" id="login-popup">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
-                <div class="ath-container m-0">
-                    <div class="ath-body bg-theme tc-light">
-                        <h5 class="ath-heading title">Sign in <small class="tc-default">with your HEAL Account</small></h5>
-                        <form action="#">
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="password" class="input-bordered" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="field-item d-flex justify-content-between align-items-center">
-                                <div class="field-item pb-0">
-                                    <input class="input-checkbox" id="remember-me-100" type="checkbox">
-                                    <label for="remember-me-100">Remember Me</label>
-                                </div>
-                                <div class="forget-link fz-6">
-                                    <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#reset-popup">Forgot password?</a>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-md">Sign In</button>
-                        </form>
-                        <div class="sap-text"><span>Or Sign In With</span></div>
 
-                        <ul class="row gutter-20px gutter-vr-20px">
-                            <li class="col"><a href="#" class="btn btn-md btn-facebook btn-block"><em class="icon fab fa-facebook-f"></em><span>Facebook</span></a></li>
-                            <li class="col"><a href="#" class="btn btn-md btn-google btn-block"><em class="icon fab fa-google"></em><span>Google</span></a></li>
-                        </ul>
-                        <div class="ath-note text-center">
-                            Don’t have an account? <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#register-popup"> <strong>Sign up here</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .modal @e -->
-    
-    <!-- Modal @s -->
-	<div class="modal fade" id="register-popup">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
-                <div class="ath-container m-0">
-                    <div class="ath-body bg-theme tc-light">
-                        <h5 class="ath-heading title">Sign Up <small class="tc-default">Create New TokenWiz Account</small></h5>
-                        <form action="#">
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="password" class="input-bordered" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="password" class="input-bordered" placeholder="Repeat Password">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <input class="input-checkbox" id="agree-term-2" type="checkbox">
-                                <label for="agree-term-2">I agree to Icos <a href="#">Privacy Policy</a> &amp; <a href="#">Terms</a>.</label>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-md">Sign Up</button>
-                        </form>
-                        <div class="sap-text"><span>Or Sign Up With</span></div>
-
-                        <ul class="row gutter-20px gutter-vr-20px">
-                            <li class="col"><a href="#" class="btn btn-md btn-facebook btn-block"><em class="icon fab fa-facebook-f"></em><span>Facebook</span></a></li>
-                            <li class="col"><a href="#" class="btn btn-md btn-google btn-block"><em class="icon fab fa-google"></em><span>Google</span></a></li>
-                        </ul>
-                        <div class="ath-note text-center">
-                            Already have an account? <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#login-popup"> <strong>Sign in here</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .modal @e -->
-    
-    <!-- Modal @s -->
-	<div class="modal fade" id="reset-popup">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
-                <div class="ath-container m-0">
-                    <div class="ath-body bg-theme tc-light">
-                        <h5 class="ath-heading title">Reset <small class="tc-default">with your Email</small></h5>
-                        <form action="#">
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-md">Reset Password</button>
-                            <div class="ath-note text-center">
-                                Remembered? <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#login-popup"> <strong>Sign in here</strong></a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .modal @e -->
-    
-    
 	<!-- preloader -->
 	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo.png" alt=""></span></div>
 	
